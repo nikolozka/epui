@@ -1,0 +1,28 @@
+{
+  "name": "epui",
+  "version": "0.0.1",
+  "description": "electron gui for epaper skizzenbuch",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "epaper",
+    "fibel",
+    "personal",
+    "primer",
+    "project"
+  ],
+  "author": "nikolozka",
+  "license": "ISC",
+  "dependencies": {
+    "osc": "^2.3.1",
+    "pdfjs-dist": "^2.2.228",
+    "serialport": "7.1.5",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "electron": "^6.0.11",
+    "electron-rebuild": "^1.8.8"
+  }
+}
